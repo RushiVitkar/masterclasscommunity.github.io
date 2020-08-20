@@ -1,0 +1,284 @@
+*{
+	margin: 0px;
+	padding: 0px;
+;
+}
+
+
+.bgimage{
+	background-image: url(images/kss.jpg);
+	background-size: 100% 110% ;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+    
+}
+
+.leftmenu{
+	width: 25%;
+	line-height: 80px;
+	float: left;
+
+}
+.leftmenu h4{
+	color: white;
+	padding-left: 50px;
+	font-weight: bold;
+	color: white;
+	font-size: 13px; 
+	 font-family: 'joti one',sans-serif;
+	 line-height: 100px;
+
+}
+.rightmenu{
+	width: 75%;
+	height: 100px;
+	float: right;
+}
+
+.rightmenu ul{
+	margin-left: 200px 
+}
+.rightmenu ul li {
+	 font-family: 'joti one',sans-serif;
+	 display: inline-block;
+	 list-style: none;
+	 font-size: 13px;
+	 color: white;
+	 font-weight: bold;
+	 line-height: 100px;
+	 margin-left: 30px;
+	 text-transform: uppercase;
+
+
+}
+.rightmenu ul li a{
+	color: white;
+}
+.rightmenu ul li a:hover{
+	color: orange;
+
+}
+#firstlist{
+	color: orange;
+}
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 200px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+    font-family: 'joti one',sans-serif;
+
+}
+.text h4{
+	font-size: 45px;
+    float: center;
+    font-weight: 700px;
+    margin: 14px;
+ }
+
+
+ .logo{
+ 	
+  margin-top: 250px;
+ }
+ 
+  
+          	.parallaxone{
+          		background-image: url(images/blue.jpg);
+          		 font-family: 'Amaranth',sans-serif;
+          		width: 100%;
+          		height: 750px;
+          		background-size: 110% 110%;
+          		background-attachment: fixed;
+
+            }
+            .parallaxone h4{
+            	color: white;
+            	float: right;
+            	margin-right: 300px;
+            	margin-top: 50px;
+            	width: 400px;
+            	height: 70px;
+            	padding: 30px;
+            	font-size: 250%;
+
+            }
+            
+            .parallaxone h3{
+            	color: white;
+            	float: center;
+            	margin-left: 600px;
+            	margin-top: 25px;
+                height: 70px;
+            	padding: 10px;
+            	font-size: 250%;
+            }
+     
+          		
+          	       .parallaxonetwo{
+            	width: 100%;
+          		height: 680px;
+          		background-size: 100% 100%;
+          		background-attachment: fixed;
+          		background-image: url(images/com.jpg);
+          		text-align: center;
+
+          	}
+          	.parallaxonetwo h4{
+          		color: white;
+            	float: right;
+            	margin-right: 900px;
+            	margin-top: 200px;
+            	width: 400px;
+            	height: 80px;
+            	padding: 5px;
+            	font-size: 350%;
+            	font-family: 'joti one',sans-serif;
+
+
+          	}
+          	.parallaxonetwo h3{
+          		
+          		color: white;
+            	float: right;
+            	margin-right: 350px;
+            	margin-top: 10px;
+            	font-size: 170%;
+
+          	}
+          	.parallaxonetwo h2{
+          		
+          		color: white;
+            	float: right;
+            	margin-right: 400px;
+            	margin-top: 20px;
+            	font-size: 170%;
+
+
+          	}
+
+           
+
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 35px;
+  margin: 45px 0;
+  border: none;
+  cursor: pointer;
+  marker-mid: 
+  width: 30%;
+  margin-right: 161px; 
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 10px 20px;
+  background-color: #f44336;
+
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: right;
+  width: 9.50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
